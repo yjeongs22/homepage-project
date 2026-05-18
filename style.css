@@ -6,8 +6,8 @@
 
 body {
   font-family: "Muli", sans-serif;
-  background-color: gray;
-  color: #fff;
+  background-color: rgb(255, 0, 0);
+  color: #ff8080;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,14 +30,14 @@ body {
 
 .container a {
   text-decoration: none;
-  color: lightblue;
+  color: rgb(0, 255, 85);
 }
 
 .btn {
   cursor: pointer;
   display: inline-block;
   width: 100%;
-  background: goldenrod;
+  background: rgb(249, 211, 114);
   padding: 15px;
   font-family: inherit;
   font-size: 16px;
@@ -66,18 +66,18 @@ body {
 .form-control input {
   background-color: transparent;
   border: 0;
-  border-bottom: 2px #fff solid;
+  border-bottom: 2px #0dbfff solid;
   display: block;
   width: 100%;
   padding: 15px 0;
   font-size: 18px;
-  color: #fff;
+  color: #ff0088;
 }
 
 .form-control input:focus,
 .form-control input:valid {
   outline: 0;
-  border-bottom-color: lightblue;
+  border-bottom-color: rgb(78, 211, 255);
 }
 
 .form-control label {
@@ -96,6 +96,6 @@ body {
 
 .form-control input:focus + label span,
 .form-control input:valid + label span {
-  color: lightblue;
+  color: rgb(15, 255, 83);
   transform: translateY(-30px);
 }
